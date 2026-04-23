@@ -564,9 +564,9 @@
     </div>
     <div class="about-grid">
       <div class="about-text reveal">
-        <p>I'm a final-year Computer Science student at <strong>Dayananda Sagar University, Bengaluru</strong>, with a deep focus on <span class="hl">Generative AI, Machine Learning, and production-ready AI systems</span>. I build end-to-end intelligent applications — from multi-agent LLM pipelines and RAG systems to ML classification models and real-time computer vision — backed by clean backend APIs.</p>
-        <p>My internship at <strong>Groove Innovations</strong> gave me hands-on experience deploying Gen AI systems that real users depend on — including an AI transcript analysis tool supporting <span class="hl">11 Indian languages</span> and an OAuth integration layer connecting Google and Microsoft services via Nango.</p>
-        <p>On the ML side, I've built models for <strong>credit card fraud detection</strong> and <strong>customer churn prediction</strong> — applying the full pipeline from feature engineering to evaluation. I'm passionate about turning complex AI/ML concepts into <strong>working, reliable software</strong> — not just demos.</p>
+        <p>I'm a final-year Computer Science student at <strong>Dayananda Sagar University, Bengaluru</strong>, with a deep focus on <span class="hl">Generative AI, Machine Learning, and production-ready AI systems</span>. I build end-to-end intelligent applications — from multi-agent LLM pipelines and RAG systems to real-time computer vision — backed by clean backend APIs in FastAPI and Flask.</p>
+        <p>On the <strong>Gen AI side</strong>, I've built <span class="hl">SmartDesk AI</span> — a multi-agent LangGraph system with RAG-powered ticket classification and escalation logic — using locally hosted LLMs via Ollama and Docker for fully containerized deployment.</p>
+        <p>On the <strong>ML & CV side</strong>, I've built <span class="hl">DualGuard</span> — a two-factor auth system combining MobileNet-SSD face detection with TOTP verification — plus ML models for <strong>credit card fraud detection</strong> and <strong>customer churn prediction</strong>, applying the full pipeline from feature engineering to evaluation. I'm passionate about turning complex AI/ML concepts into <strong>working, reliable software</strong> — not just demos.</p>
       </div>
       <div class="about-stats reveal">
         <div class="stat-card">
@@ -605,9 +605,9 @@
       </div>
       <div class="exp-company">Groove Innovations Pvt. Ltd. &mdash; Hyderabad, India</div>
       <ul class="exp-bullets">
-        <li>Built a production-grade <strong>AI transcript analysis system</strong> processing meetings from 1 to 8+ hours, automatically extracting summaries, action items, and decisions with full support across <strong>11 Indian languages</strong> — enabling employees to understand meeting outcomes without watching full recordings.</li>
-        <li>Developed a full-stack <strong>email template management system</strong> with an AI-powered image-to-HTML generator that produces simple templates within <strong>2 minutes</strong> and complex ones within <strong>3 minutes</strong>, eliminating from-scratch email design for marketing teams.</li>
-        <li>Built a modular <strong>FastAPI + Nango integration layer</strong> as an OAuth proxy enabling seamless multi-provider sync across Google Calendar, Gmail, and Google Tasks — with a structured foundation for Microsoft Outlook/Graph; implemented session-based auth, provider-specific service modules, and a clean REST API.</li>
+        <li>Built a production-grade <strong>AI transcript analysis system</strong> using <strong>Groq Cloud API</strong> (Llama 3.1 8B Instant &amp; Llama 3 70B) with a Chunk→Extract→Stitch pipeline for 1–8+ hour meetings; implemented anti-hallucination fact-binding prompts, <strong>NLP</strong>-based token-aware chunking for <strong>11 Indian languages</strong>, dual-layer intent detection via 150+ keyword weights, and a sliding window rate limiter for TPM/RPM management.</li>
+        <li>Developed a <strong>Flask + Groq email template system</strong> with <strong>Playwright</strong>-powered AI self-correction loops — applied <strong>Prompt Engineering</strong> to generate HTML, capture screenshots, and feed them back to the LLM for visual fixes; <strong>BeautifulSoup4</strong> parsing with <strong>13+ specialized templates</strong> producing results in <strong>2–3 minutes</strong>.</li>
+        <li>Engineered a modular <strong>FastAPI + Nango</strong> OAuth proxy layer for multi-provider sync across <strong>Google Calendar, Gmail, and Google Tasks</strong> with session-based auth and provider-specific service modules.</li>
       </ul>
     </div>
   </div>
@@ -739,6 +739,7 @@
           <span class="skill-pill">LangGraph</span>
           <span class="skill-pill">Prompt Engineering</span>
           <span class="skill-pill">Ollama</span>
+          <span class="skill-pill">Groq</span>
         </div>
       </div>
       <div class="skill-group reveal">
@@ -777,7 +778,6 @@
           <span class="skill-pill">MongoDB</span>
           <span class="skill-pill">Pandas</span>
           <span class="skill-pill">NumPy</span>
-          <span class="skill-pill">Power BI</span>
         </div>
       </div>
       <div class="skill-group reveal">
@@ -786,6 +786,7 @@
           <span class="skill-pill">Docker</span>
           <span class="skill-pill">Git</span>
           <span class="skill-pill">GitHub</span>
+          <span class="skill-pill">Playwright</span>
         </div>
       </div>
     </div>
